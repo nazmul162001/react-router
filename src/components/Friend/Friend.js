@@ -11,7 +11,7 @@ const Friend = (props) => {
   return (
     <div>
       <h2>Name: {name}</h2>
-      <button> {username} id: {id} </button>
+      <button onClick={showFriendDetail}> {username} id: {id} </button>
     </div>
   );
 };

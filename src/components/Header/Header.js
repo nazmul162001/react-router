@@ -6,10 +6,13 @@ const Header = () => {
   return (
     <div>
        <h2>Wellcome to my fancy Routing Website</h2>
-       <nav>
-         <CustomLink to="/">Home</CustomLink>
-         <CustomLink to="/friends">Friends</CustomLink>
-         <CustomLink to="/about">About</CustomLink>
+       <nav style={{display: 'flex', justifyContent: 'center', backgroundColor: 'indigo', padding: '20px 0'}}>
+
+         <CustomLink  to="/"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>Home</span></CustomLink>
+
+         <CustomLink  to="/friends"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>Friends</span></CustomLink>
+         
+         <CustomLink  to="/about"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>About</span></CustomLink>
        </nav>
     </div>
   );
