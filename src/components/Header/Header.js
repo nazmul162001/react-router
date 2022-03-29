@@ -14,6 +14,8 @@ const Header = () => {
 
          <CustomLink  to="/post"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>Post</span></CustomLink>
 
+         <CustomLink  to="/countries"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>Countries</span></CustomLink>
+
          <CustomLink  to="/about"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>About</span></CustomLink>
        </nav>
     </div>
