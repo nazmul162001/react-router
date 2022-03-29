@@ -11,7 +11,9 @@ const Header = () => {
          <CustomLink  to="/"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>Home</span></CustomLink>
 
          <CustomLink  to="/friends"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>Friends</span></CustomLink>
-         
+
+         <CustomLink  to="/post"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>Post</span></CustomLink>
+
          <CustomLink  to="/about"><span style={{color: 'white', paddingRight: '10px', fontSize: '22px'}}>About</span></CustomLink>
        </nav>
     </div>
